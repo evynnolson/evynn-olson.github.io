@@ -8,6 +8,7 @@
             p {color:black;}
             h2 {color: black;}
         </style>
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <Title> Colorado Kids Campaign Accessibility Report </Title>
     <h1> Website Accessibilty Report: Colorado Kids Campaign</h1>
     <p >Name: Evynn Olson</p1>
@@ -62,26 +63,68 @@
         </h3>
             <p>Text resizing formats can be supportive to a website if the website has a stable structure across its pages. This means that upon text zooming, there is no issue of congestion or overlap among sections, texts, or images. This is often a browser initiated process,and a separate feature from whole-page zooming which may require an extension to the browser. Having the ability to zoom text size provides users with visual impairments the preferential control to focus on written content only and in a larger size than the standard page.</p>
             <h4> Results </h4>
-            <p> Using the Chrome browser to complete this review, I noticed that the only way to get a text-only zoom feature is through adding an extension to the browser. Once I downloaded the extension, I was able to enhance text on the CO Kids website without any overlap across sections. What I did notice was the images would cut off into the end of their section when text was enlarged, but this had no effect on actually reading the text at a larger scale. </p>
+            <p> Using the Chrome browser to complete this review, I noticed that the only way to get a text-only zoom feature is through adding an extension to the browser. Once I downloaded the extension, I was able to enhance text on the CO Kids website without any overlap across sections. What I did notice was the images would cut off into the end of their section when text was enlarged, but this had no effect on actually reading the text at a larger scale. Another positive element to this is that the text-wrap feature means that horizontal scrolling does not appear on the page whereas in a whole page zoom, the text will spread across the page and need to be scrolled over to complete. </p>
     </div>
     <div> 
         <h2><mark>Interactions</mark></h2>
             <p></p>
         <h3>Keyboard Access and Visual Focus</h3>
-            <p></p>
+            <p>To provide a higher level of accessibility for users with impairments, keyboard access and visual focus refers to the ability to use alternative methods of movement around a webpage.</p>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-check" style="color: #2cb81a;"></i></span>
+                    <b>Tab to all:</b> Using only the tab button and arrows, all pages are accessible including links and form fields.
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-minus" style="color: #f19009;"></i></span>
+                   <b>Tab away:</b> It was not as easy to get out of sections once tabbed in. Using keyboard features, the option was easier going forward rather than retracting out of tab areas.
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-check" style="color: #2cb81a;"></i></span>
+                    <b>Tab order:</b> The left-to-right, top-to-bottom sequence is followed when tabbing through sections
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-minus" style="color: #f19009;"></i></span>
+                    <b>Visual focus:</b> When tabbing through the various sections, it is difficult to see what is outlined, <i>but</i> there is definition to the selected section.
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-minus" style="color: #f19009;"></i></span>
+                    <b>All functionality by keyboard:</b> There are some gaps across the entire website in the ability for it to be accessed using keyboard functions only. When trying to select elements on certain pages, such as a search page, the tab feature and arrow features skip across content and into places like the footer. 
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-check" style="color: #2cb81a;"></i></span>
+                   <b>Drop-down lists:</b> The tab and arrow buttons are easy to use for entering a drop-down list and selecting certain sections.
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fa-solid fa-check" style="color: #2cb81a;"></i></span>
+                    <b>Images:</b> There is no issue when using tab and enter buttons for images with links.
+                </li>
+            </ul>
         <h3>Skip to Main</h3>
-            <p></p>
+            <p> Having a "skip to main" feature allows users to bypass content that is not applicable to their needs.It also supports a streamlined selection process for users who may use assistive devices.</p>
+            <h4>Results</h4>
+            <p> From the homepage, navigation for the "Skip to main" also includes "skip to primary content," "skip to primary sidebar," and "skip to footer." Upon using the tab method of navigation, these options become highlighted along with a "search" option that drops from the search toggle bar. This is a great way for users to find what they need quickly and without clutter to their queries. An even more useful feature is the global header and footer which means the "skip to" feature can be accessed on any page.</p>
         <h3>Forms, Labels, and Errors</h3>
-            <p></p>
+            <p>It is imperative for websites to provide accessible features on every piece of their site. Fill-in forms, such as this:<a href="url">Colorado Children's Campaign Email Lists (everyaction.com)</a>, must have clearly designated rules for how to fill each box.</p>
+            <h4>Results</h4>
+            <p>I ran this external link through the WAVE to measure its accessibility and while it uses ARIA features which are semantic-enhancing for websites, there were issues in contrast and with the presence of broken links. The form itself uses a fieldset and legend which organizes and categorizes the elements so they appear uniform and allows for screen readers to relay the information back to the user. Enlarging the text and providing higher contrast or bolding the sections of the form may also be more supportive to users with impairments.</p>
     </div>
     <div>
         <h2><mark>General</mark></h2>
-            <p></p>
         <h3> Moving content</h3>
-            <p></p>
+            <p>Moving content can be a testy feature to websites when regarding their accessibility. How fast is the section moving? What combination of colors, text, and images, are present? What type of moving content is it? These are all questions that must be considered when going forth with a moving section. For some people with visual impairments, processing disorders, or even epilepsy, too much movement, and/or flash-heavy imagery can be incredibly harmful. Stylistic choices such as a slow rotation for moving elements also supports people who may read at a slower pace. <source> </p>
+            <h4>Results</h4>
+            <p> The moving carousel on the homepage of the CO Kids website is coded with delays in the movement and animation process and only features three slides. The images and text used on this carousel are limited and large in size; avoiding too much in an already moving piece. While there is an auto-animation for the slides, they do not start right away and two cursors on either side of the carousel allow for the user to toggle left or right at their own pace. The animation is coded as "Ease Out" and automatically loops after six seconds.The carousel also is reserved to the top so vertical scrolling does not pull down or cause clutter with continuous moving.</p>
+            <p> Based on recommendations for accessibility by the WAI, the carousel does not run the risk of content flashes and blinks at more than three times in one second. The one area that could be enhanced is the ability to completely stop the movement of the carousel when it is in view. By clicking on one of the slides it automatically redirects the user to a new page, instead of pausing or holding the slide still. </p>
         <h3> Multimedia Alternatives</h3>
-            <p></p>
+            <p> Multimedia alternatives provide heightened accessibility for users with choices that can be customized as needed. This includes but is not limited to, closed captioning services, volume toggles, resolution enhancement, and visual format support for screen readers.</p>
+            <h4>Results</h4>
+            <p> I found no multimedia features on the CO Kids website.</p>
         <h3> Basic Structure Text</h3>
+        <h4> CO Kids Campaign PDF Report</h4>
+        <p> The one other major accessibility issue that I run into is in navigating the PDF format of the 2023 Kids Campaign Report. There is only a section at the bottom of the report which allows users to flip through its pages, but there are no headings, subheadings, or other subject navigation buttons within the report and especially the table of content image list.</p>
+        <p>During my last quarter of classes in Fall 2023, I was tasked with creating a version that was more accessible for all users. This version includes bookmarks and heading divisions for each page within the report to support easier access to specific sections.
+            <!--I need to learn how to insert my PDF into this section as an indicator that an accessible format was created.-->
     </div>
     </main>
 </html>
