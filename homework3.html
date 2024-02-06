@@ -19,25 +19,25 @@
         <p3>Class Project: Accessibility Testing</p3>
     </div>
     <div>
-        <p4>Website: <a href="url">https://www.coloradokids.org/</a></p4>
+        <p4>Website: <a href="https://www.coloradokids.org/"> Colorado Kids Campaign</a></p4>
     </head>
     <div>
         <p> Hello, my name is Evynn Olson and I am a student at the University of Denver. In my class, we are studying digital accessibility and the methods used to create and manage web content that is more accessible. By finding more ways to enhance digital accessibilty, we are supportive to individuals who use assistive devices and may face other limitations to direct use with web applications. </p>
-        <p> The purpose of this report is to identify potential accessibilty issues within the website, and to offer suggestions for avoiding access issues through restructuring or correcting elements. The checklist being referenced is from <a href="url"> Evaluating Web Accessibility Overview | Web Accessibility Initiative (WAI) | W3C</a> I hope you find this report helpful and can move forward with the recommendations to enhance digital accessibilty for support of all web users.
+        <p> The purpose of this report is to identify potential accessibilty issues within the website, and to offer suggestions for avoiding access issues through restructuring or correcting elements. The checklist being referenced is from <a href="https://www.w3.org/WAI/test-evaluate/preliminary/"> WAI Accessibilty Testing. </a> I hope you find this report helpful and can move forward with the recommendations to enhance digital accessibilty for support of all web users.
     </div>
     <div>
         <h1> Accessibility Checklist </h1>
         <h2> <mark>Website Page Titles</mark> </h2>
         <p> Page titles are the name of the page displayed in the browser bar. It is created with a basic navigable code that allows users to know where they are, keep track of information within specific pages, and often differentiates from other uses of title elements. </p>
         <h3>Results</h3>
-            <p> Across ten pages, there were few errors with page titling, codewise and in appearance in the browser tab. There are also metadata tags which add an extra description of the content to be found within each page based on its <b> < title >. </b></p>
+            <p> Across ten pages, there were a few errors with page titling, codewise and in appearance in the browser tab. Accessible page titles across the website would reflect the specific nature of the page, followed by the name of the organization. On this website, there are some inconsistent titling across pages; such as if it will include the company name <i> and </i> page subject, or only one of the items. On a positive note, there are  metadata tags which add an extra description of the content to be found within each page based on its <b> < title >. </b> These tags are useful in the event of updates and remodeling of certain code elements where people can keep track of their progress.</p>
     </div>
     <div>
         <h2><mark>Image Alternative Text</mark></h2>
         <p> Alternative Text is used as a descriptor under images and other like items. The feature of alternative text allows users to understand the context of a certain element that they may not otherwise see without it. For screen readers specifically, this feature allows them to represent an image in a way for the user to understand. It is also a matter of describing the functions of links within a page when there is slow internet connection or an error in the src attribute.</p>
         <h3> Results</h3>
-            <p> There are many images and icons across the website that do not have alternative text attributes to the code. This also causes the links of the images to be empty, another issue with trying to find accessible information on the image or other link. One page with many hits for empty, or broken links and no alt text applications is <a href="url">Publications (coloradokids.org)</a>. For the amount of logos and images across the page, there are few supportive text descriptions.</p> 
-            <p> To add in alternative text elements, the code may look like this: <b> < img src="____" alt="____"> </b>. This is the simplest snippet for adding alternative text and it can be applied to  many different image elements (.gif, .jpg, .svg, etc.). </p>
+            <p> There are many images and icons across the website that do not have alternative text attributes to the code. This also causes the links of the images to be empty, another issue with trying to find accessible information on the image or other link. One page with many hits for empty, or broken links and no alt text applications is <a href="https://www.coloradokids.org/data/publications/">Publications</a>. For the amount of logos and images across the page, there are few supportive text descriptions. Another area where this can be seen is in the staff page, where there is no alt text provided for the images of each staff member which are a two picture moving piece. While the staff descriptions are below the card/ within the attached link, using alt text on the images would be supportive to those who need more context on what an image shows, if they cannot see it easily or without assistance.</p> 
+            <p> To add in alternative text elements, the code may look like this: <b> < img src="____" alt="____"> </b>. This is the simplest snippet for adding alternative text and it can be applied to  many different image elements (.gif, .jpg, .svg, etc.). Descriptions do not have to be incredibly detailed either, however should provide an idea of what the image displays. </p>
     </div>
     <div>
         <h2><mark>Text</mark></h2>
@@ -46,9 +46,9 @@
         <h3>
             <li>Headings</li>
         </h3> 
-            <p>The use of headings across a website allows for all content to be organized within specific areas and topics, separated with the use of other headings. Headings are labeled in order of importance: <b>< h1; h2; h3; > </b> which designates the following information into sets and subsets based on importance. Having headings is an important part of accessibility because it provides structure, and easier navigation when using assistive technologies.</p>
+            <p>The use of headings across a website allows for all content to be organized within specific areas and topics, separated with the use of other headings. Headings are labeled in order of importance: <b> < h1; h2; h3; > </b> which designates the following information into sets and subsets based on importance. Having headings is an important part of accessibility because it provides structure, and easier navigation when using assistive technologies.</p>
             <h4>Results</h4>
-                <p>After reading through the use of code across 10 pages, all headings were correctly marked and headings were ordered correctly based on the information organization. It is clear to see where content belongs and separate various sections.</p>
+                <p>After reading through the use of code across 10 pages, all headings were identified and headings were ordered correctly based on the information organization. It is clear to see where content belongs and separate various sections. <i>However,</i> there are many ways to advance the organization and make more clearly designated spaces both within the code and for the layout of the website. Many of the pages which list the various policy successes across the state are sectioned off in a way that is not supportive to assistive technologies and the ability to separate information clearly. For example, on the page <a href= "https://www.coloradokids.org/youth-success/youth-mental-behavioral-health/"> Youth Mental and Behavioral Health</a>, the use of paragraph < p > tags and < span > tags create a dense section of organization which 'flows' rather than identifies separate entities of information for the assistive reader or user. Instead, consider the use of bulleted list items which are a simple way to break up information to be more digestible, but still maintain consistent patterns in formatting and display.</p>
         <h3>
             <li>Contrast Ratio</li>
         </h3>
@@ -57,13 +57,13 @@
             <h4>Results</h4>
             <p> Across the website, color contrasts received a low score for accessibilty. The background colors and text are listed as incompatible because of very low color contrast and this affects multiple pages. The code areas all denote that the contrast setting is on "auto" which does not give a clear indication what ratio is used. The WAI system, however, states that there is less than a 4.5:1 ratio range which is necessary for all text lower than 14 point bold.Listed ratios found across the site include <b>1:1, 2.82:1, 3.94:1, and 4.19:1.</b>
              Adjustments for the contrast section of the accessibility checker allows a visual for how changes will appear if utilized in the website code.
-                <p> On the Accessibilty Statement found here: <a href="url"> Accessibility Statement - Colorado Children's Campaign (coloradokids.org)</a>, there is acknowledgment of the known contrast issues and other pieces of the website that need to better adhere to W3C and WCAG 2 AA. This is a positive feature to let users know that specific accessibility changes are in progress.</p>
+                <p> On the <a href="https://www.coloradokids.org/accessibility/"> Accessibilty Statement</a> page, there is acknowledgment of the known contrast issues and other pieces of the website that need to better adhere to W3C and WCAG 2 AA. This is a positive feature to let users know that specific accessibility changes are in progress.</p>
         <h3>
             <li>Resize Text</li>
         </h3>
             <p>Text resizing formats can be supportive to a website if the website has a stable structure across its pages. This means that upon text zooming, there is no issue of congestion or overlap among sections, texts, or images. This is often a browser initiated process,and a separate feature from whole-page zooming which may require an extension to the browser. Having the ability to zoom text size provides users with visual impairments the preferential control to focus on written content only and in a larger size than the standard page.</p>
             <h4> Results </h4>
-            <p> Using the Chrome browser to complete this review, I noticed that the only way to get a text-only zoom feature is through adding an extension to the browser. Once I downloaded the extension, I was able to enhance text on the CO Kids website without any overlap across sections. What I did notice was the images would cut off into the end of their section when text was enlarged, but this had no effect on actually reading the text at a larger scale. Another positive element to this is that the text-wrap feature means that horizontal scrolling does not appear on the page whereas in a whole page zoom, the text will spread across the page and need to be scrolled over to complete. </p>
+            <p> Using the Chrome browser to complete this review, I noticed that the only way to get a <i>text-only</i> zoom feature is through adding an extension to the browser. Once I downloaded the extension, I was able to enhance text on the CO Kids website without any overlap across sections. What I did notice was the images would cut off into the end of their section when text was enlarged, but this had no effect on actually reading the text at a larger scale. Another positive element to this is that the text-wrap feature means that horizontal scrolling does not appear on the page whereas in a whole page zoom, the text will spread across the page and need to be scrolled over to complete. </p>
     </div>
     <div> 
         <h2><mark>Interactions</mark></h2>
@@ -85,11 +85,11 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fa-solid fa-minus" style="color: #f19009;"></i></span>
-                    <b>Visual focus:</b> When tabbing through the various sections, it is difficult to see what is outlined, <i>but</i> there is definition to the selected section.
+                    <b>Visual focus:</b> When tabbing through the various sections, it is difficult to see what is outlined, <i>but</i> there is a faint definition to the selected section. A way to enhance this is by adding more contrast to the focus pieces, whether that is adding an inverted background, or using a shadow effect to signify that something is clearly selected.
                 </li>
                 <li>
                     <span class="fa-li"><i class="fa-solid fa-minus" style="color: #f19009;"></i></span>
-                    <b>All functionality by keyboard:</b> There are some gaps across the entire website in the ability for it to be accessed using keyboard functions only. When trying to select elements on certain pages, such as a search page, the tab feature and arrow features skip across content and into places like the footer. 
+                    <b>All functionality by keyboard:</b> There are some inconsistent areas across the entire website in the ability for it to be accessed using keyboard functions only. When trying to select elements on certain pages, such as a search page, the tab feature and arrow features skip across content and into places like the footer. 
                 </li>
                 <li>
                     <span class="fa-li"><i class="fa-solid fa-check" style="color: #2cb81a;"></i></span>
@@ -105,7 +105,7 @@
             <h4>Results</h4>
             <p> From the homepage, navigation for the "Skip to main" also includes "skip to primary content," "skip to primary sidebar," and "skip to footer." Upon using the tab method of navigation, these options become highlighted along with a "search" option that drops from the search toggle bar. This is a great way for users to find what they need quickly and without clutter to their queries. An even more useful feature is the global header and footer which means the "skip to" feature can be accessed on any page.</p>
         <h3>Forms, Labels, and Errors</h3>
-            <p>It is imperative for websites to provide accessible features on every piece of their site. Fill-in forms, such as this:<a href="url">Colorado Children's Campaign Email Lists (everyaction.com)</a>, must have clearly designated rules for how to fill each box.</p>
+            <p> Fill-in forms, such as this <a href="https://secure.everyaction.com/8FcEILcHIECeeuO_ke1GQw2">Stay Informed Sign-Up</a> form should have clearly designated rules for how to fill each box so that an assistive device would know how to direct its user. While it is a third party website, it can still be toggled in some ways via the organization to ensure accessible features.</p>
             <h4>Results</h4>
             <p>I ran this external link through the WAVE to measure its accessibility and while it uses ARIA features which are semantic-enhancing for websites, there were issues in contrast and with the presence of broken links. The form itself uses a fieldset and legend which organizes and categorizes the elements so they appear uniform and allows for screen readers to relay the information back to the user. Enlarging the text and providing higher contrast or bolding the sections of the form may also be more supportive to users with impairments.</p>
     </div>
@@ -122,7 +122,7 @@
             <p> I found no multimedia features on the CO Kids website.</p>
         <h3> Basic Structure Text</h3>
         <h4> CO Kids Campaign PDF Report</h4>
-        <p> The one other major accessibility issue that I run into is in navigating the PDF format of the 2023 Kids Campaign Report. There is only a section at the bottom of the report which allows users to flip through its pages, but there are no headings, subheadings, or other subject navigation buttons within the report and especially the table of content image list.</p>
+        <p> In some of the pages and subpages, a section is listed with the text "Share this info" but there is no interactive element to go forward with sharing information, so it either could be removed or become a hyperlink for users to share either to media, text, or other. The one other major accessibility issue that I run into is in navigating the PDF format of the <a href="https://www.coloradokids.org/wp-content/uploads/2023/08/2023-KC-Book-proof-8.23.23a.pdf">2023 Kids Campaign Report</a>. On the main website, there is only a section at the bottom of the report which allows users to flip through its pages, but there are no headings, subheadings, or other subject navigation buttons. Once within the actual PDF version of the report, there is still only the table of content image list to use for navigation.</p>
         <p>During my last quarter of classes in Fall 2023, I was tasked with creating a version that was more accessible for all users. This version includes bookmarks and heading divisions for each page within the report to support easier access to specific sections.
             <!--I need to learn how to insert my PDF into this section as an indicator that an accessible format was created.-->
     </div>
